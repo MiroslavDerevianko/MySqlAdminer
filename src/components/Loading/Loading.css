@@ -1,0 +1,22 @@
+.Loading-container {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Loading-load {
+    width: 48px;
+	height: 48px;
+	margin: 0 auto;
+	border-radius: 50%;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	box-shadow: 3px 3px 1px rgb(0,0,0);
+	animation: localanim 690ms infinite linear;
+}
+@keyframes localanim {
+	100%{ transform: rotate(360deg); transform: rotate(360deg); }
+}

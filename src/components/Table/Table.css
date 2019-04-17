@@ -1,0 +1,46 @@
+
+.Table-svg {
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.Table-refresh:hover img {
+    animation: refresh 1s infinite linear;
+}
+
+.Table-svg > img {
+    width: 20px;
+    height: 20px;
+}
+
+.Table-container, .Table-table {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.Table-table {
+    align-self: center;
+}
+
+.Table-table  td {
+    width: 150px;
+}
+
+
+.Table-column-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@keyframes refresh {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

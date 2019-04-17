@@ -1,0 +1,58 @@
+.Panel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.Panel-select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Panel-select > h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.Panel-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Panel-form-container > h1 {
+    font-size: 26px;
+}
+
+.Panel-form > button {
+    margin: 10px 0;
+    align-self: stretch;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.Panel-form {
+    font-size: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.Panel-form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.Panel-form-item > input {
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+.Panel-form-item > label {
+    margin: 5px 0;
+    font-weight: bold;
+    align-self: flex-start;
+}
